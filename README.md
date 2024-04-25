@@ -96,11 +96,12 @@ In Python you can also traverse a directory's contents, item by item:
 ```
 import os
 
-path = "data"
+directory = "data"
 
-for (root, dirs, file) in os.walk(path):
-    for f in file:
-        print(f)
+for filename in os.listdir(directory):
+  with open(os.path.join(directory, filename)) as f:
+    print(f)
+    # do other things with f
 ```
 
 ## 5. Importing
