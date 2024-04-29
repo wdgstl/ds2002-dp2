@@ -1,3 +1,5 @@
-Records imported: 
-Records orphaned (complete but not imported): 
-Records corrupted: 
+Records imported: 289
+
+Records orphaned (complete but not imported): 6
+
+Records corrupted: 1 
